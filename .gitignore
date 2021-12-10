@@ -4,3 +4,4 @@ target/
 .settings/
 manifest.yml
 
+/.idea/
