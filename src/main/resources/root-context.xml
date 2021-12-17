@@ -7,7 +7,7 @@
 		http://www.springframework.org/schema/cloud http://www.springframework.org/schema/cloud/spring-cloud.xsd
 		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd">
 
-	    	<cloud:properties id="cloudProperties"/>
+		<!--<cloud:properties id="cloudProperties"/>-->
 
 		<!-- Depending on services bound to the app, you may uncomment following elements -->
 		<!-- 
@@ -19,6 +19,5 @@
 	    
 	    <!-- This element will always work regardless of services bound as long as you use @Autowired
 	    		 to grab service connectors -->
-		<cloud:service-scan/>
-	
+		<!--<cloud:service-scan/>-->
 </beans>
