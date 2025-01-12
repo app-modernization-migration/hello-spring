@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hello-spring
+  description: |
+    This a hello spring application
+  links:
+    - title: My first link
+      url: https://somewhere
+  annotations:
+    backstage.io/kubernetes-id: hello-spring
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: app-modernization-migration/hello-spring
+spec:
+  type: service
+  lifecycle: deprecated
+  owner: rmarting
